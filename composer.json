@@ -1,0 +1,46 @@
+{
+  "name": "mishal/iless-plugin-custom-import",
+  "type": "library",
+  "description": "ILess plugin for custom imports",
+  "keywords": [
+    "less",
+    "lesscss",
+    "css",
+    "parser",
+    "compiler",
+    "less.js",
+    "plugin",
+    "custom",
+    "import",
+    "custom import"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/mishal/iless-plugin-custom-import",
+  "authors": [
+    {
+      "name": "ILess contributors",
+      "homepage": "https://github.com/mishal/iless/wiki/Contributors"
+    }
+  ],
+  "require": {
+    "mishal/iless": "~2.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "ILess\\Plugin\\CustomImport\\": "lib/CustomImport"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ILess\\Plugin\\CustomImport\\": "lib/CustomImport",
+      "ILess\\Test\\Plugin\\CustomImport\\": "tests/CustomImport"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
