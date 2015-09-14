@@ -2,6 +2,10 @@
 
 Allows to create custom `schema like` import directives for LESS. Inspired by [less-plugin-custom-import](https://www.npmjs.com/package/less-plugin-custom-import).
 
+## Build Status
+
+[![Build Status](https://travis-ci.org/mishal/iless-plugin-custom-import.svg)](https://travis-ci.org/mishal/iless-plugin-custom-import)
+
 ## Installation
 
 Install using composer:
